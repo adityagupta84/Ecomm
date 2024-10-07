@@ -36,25 +36,15 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Installation
 
-1. **Clone the repository**:
+1. **Clone the repository**: git clone https://github.com/adityagupta84/ecommerce.git
 
-   git clone https://github.com/adityagupta84/ecommerce.git
-
-2. **Navigate to the project directory**:
-
-   
-   cd ecommerce
-
+2. **Navigate to the project directory**: cd ecommerce
 
 3. **Install dependencies**:
 
-   If you’re using `pnpm` (recommended):
-   
-   pnpm install
+   If you’re using `pnpm` (recommended): pnpm install
 
-   Or, if you prefer `npm`:
-   
-   npm install
+   Or, if you prefer `npm`: npm install
 
 4. **Set up Firebase**:
 
@@ -64,29 +54,26 @@ Before you begin, ensure you have the following installed on your system:
 
   
      VITE_FIREBASE_API_KEY=your_api_key
+
      VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+
      VITE_FIREBASE_PROJECT_ID=your_project_id
   
 
-5. **Run the app locally**:
+5. **Run the app locally**: pnpm run dev
 
-   pnpm run dev
-
-
-   The app should now be running at `http://localhost:3000`.
+The app should now be running at `http://localhost:3000`.
 
 ## 🏗️ Building for Production
 
-To create a production build, run:
-
-pnpm run build
-
+To create a production build, run: pnpm run build
 
 The build files will be generated in the `dist` folder.
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to improve this project or fix any bugs, feel free to submit a pull request.
+Contributions are welcome! 
+If you'd like to improve this project or fix any bugs, feel free to submit a pull request.
 
 ### Steps to Contribute:
 
