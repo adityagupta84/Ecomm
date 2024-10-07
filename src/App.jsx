@@ -23,13 +23,14 @@ function ProtectedRoute({ children }) {
 }
 
 const router = createBrowserRouter(
-  createRoutesFromElements(
+  createRoutesFromElements( 
     <>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" index element={<Cart />} />
         <Route
           path="/checkout"
+          index
           element={
             <ProtectedRoute>
               <Checkout />
@@ -37,12 +38,11 @@ const router = createBrowserRouter(
           }
         />
       </Route>
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
+      <Route path="/login" index element={<Login />} />
+      <Route path="/register" index element={<Register />} />
     </>
   )
 );
-
 function App() {
   return (
     <AuthProvider>
