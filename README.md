@@ -20,10 +20,15 @@ Protected Checkout: Only logged-in users can access the checkout page.
 Responsive Design: Optimized for both mobile and desktop devices.
 
 ## 🛠️ Technologies Used
+
 React: Front-end framework for building user interfaces.
+
 Redux: State management for handling global application state.
+
 React Router DOM: Routing for seamless navigation between pages.
+
 Firebase: Used for user authentication.
+
 Material UI: For a modern and responsive design system.
 
 ## Getting Started
@@ -31,6 +36,7 @@ Material UI: For a modern and responsive design system.
 Follow these steps to run the project locally:
 
 Prerequisites
+
 Before you begin, ensure you have the following installed on your system:
 
 Node.js
@@ -85,6 +91,7 @@ The build files will be generated in the dist folder.
 ## 🤝 Contributing
 
 Contributions are welcome!
+
 If you'd like to improve this project or fix any bugs, feel free to submit a pull request. Before you start, make sure to:
 
 Fork the repository.
