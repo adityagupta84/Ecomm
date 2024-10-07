@@ -1,3 +1,6 @@
+Here is the code for your updated README file:
+
+```md
 # 🛒 Ecomm - React E-Commerce Platform
 
 Welcome to **Ecomm**, a modern e-commerce platform built with **React** and powered by **Redux**, **Material UI**, and **Firebase**. This project demonstrates a clean and functional design with features such as user authentication, shopping cart management, and a secure checkout process.
@@ -40,3 +43,84 @@ Before you begin, ensure you have the following installed on your system:
 
    ```bash
    git clone https://github.com/adityagupta84/ecommerce.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd ecommerce
+   ```
+
+3. **Install dependencies**:
+
+   If you’re using `pnpm` (recommended):
+   
+   ```bash
+   pnpm install
+   ```
+
+   Or, if you prefer `npm`:
+   
+   ```bash
+   npm install
+   ```
+
+4. **Set up Firebase**:
+
+   - Go to [Firebase Console](https://console.firebase.google.com/).
+   - Create a new project and enable Firebase Authentication.
+   - Get your Firebase config details and create a `.env` file in the root directory with your Firebase keys:
+
+     ```bash
+     VITE_FIREBASE_API_KEY=your_api_key
+     VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+     VITE_FIREBASE_PROJECT_ID=your_project_id
+     ```
+
+5. **Run the app locally**:
+
+   ```bash
+   pnpm run dev
+   ```
+
+   The app should now be running at `http://localhost:3000`.
+
+## 🏗️ Building for Production
+
+To create a production build, run:
+
+```bash
+pnpm run build
+```
+
+The build files will be generated in the `dist` folder.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project or fix any bugs, feel free to submit a pull request.
+
+### Steps to Contribute:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Commit your changes**:
+
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+
+4. **Push to the branch**:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Open a pull request**.
+```
+
+You can now use this code in your `README.md` file on GitHub!
